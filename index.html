@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even Game</title>
+    <link rel="stylesheet" href="./oddeve.css">
+</head>
+<body>
+    <div class="oddeven">
+        <div class="card">
+            <h1 class="title">
+                ODD EVEN GAME
+            </h1>
+            <div class="main-content">
+                <div class="player-row">
+                    <h2>Player 1</h2>
+                    <h2>Player 2</h2>
+                </div>
+                <div class="player-score">
+                    <div class="player1">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="scores">
+                        <h2 id="p1-score">0</h2>
+                        <h2>&nbsp;-&nbsp;</h2>
+                        <h2 id="p2-score">0</h2>
+                    </div>
+                    <div class="player2">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <h1 id="result">Waiting for Result</h1>
+                <div class="control-comp">
+                    <button class="controls" id="check-btn" onclick="allocateScore();">Check</button>
+                    <button class="controls" onclick="window.location.reload();">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./oddevescript.js"></script>
+</body>
+</html>
